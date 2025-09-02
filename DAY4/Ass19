@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int h;
+    printf("Enter heads or tails: ");
+    scanf("%d",&h);
+    if(h==heads)
+    printf("You chose heads\n");
+    else
+    printf("You chose tails\n");
+    return 0;
+}

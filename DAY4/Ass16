@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int roll;
+    printf("Enter your roll number: ");
+    scanf("%d",&roll);
+    if(roll==100)
+    printf("100 roll is present\n");
+    else 
+    printf("100 roll iws not present\n");
+    return 0;
+}
