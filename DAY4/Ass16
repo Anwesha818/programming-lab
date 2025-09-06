@@ -6,6 +6,7 @@ int main(){
     if(roll==100)
     printf("100 roll is present\n");
     else 
-    printf("100 roll iws not present\n");
+    printf("100 roll is not present\n");
     return 0;
+
 }
