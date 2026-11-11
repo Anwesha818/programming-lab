@@ -1,0 +1,4 @@
+SELECT C.*
+FROM Customer C, Invoice I
+WHERE C.CUST_ID = I.CUST_ID
+AND I.INV_NO = 'I10';
