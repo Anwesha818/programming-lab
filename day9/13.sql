@@ -1,0 +1,4 @@
+SELECT I.CUST_ID
+FROM Movie M, Invoice I
+WHERE M.MV_NO = I.MV_NO
+AND M.STAR = 'TC';
