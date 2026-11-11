@@ -1,0 +1,3 @@
+SELECT *
+FROM Client_Master
+WHERE Name LIKE '__a_a%';
