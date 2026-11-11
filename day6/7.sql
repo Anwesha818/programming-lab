@@ -1,0 +1,7 @@
+ SELECT JOB_ID,
+       MAX(SAL) AS Max,
+       MIN(SAL) AS Min,
+       AVG(SAL) AS Avg,
+       SUM(SAL) AS Sum
+FROM EMP
+GROUP BY JOB_ID;
