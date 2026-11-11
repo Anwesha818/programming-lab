@@ -1,0 +1,5 @@
+SELECT DISTINCT C.FNAME, C.LNAME
+FROM Customer C, Invoice I, Movie M
+WHERE C.CUST_ID = I.CUST_ID
+AND I.MV_NO = M.MV_NO
+AND M.TYPE = 'Action';
