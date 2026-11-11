@@ -1,0 +1,3 @@
+SELECT *
+FROM Sales_Order
+WHERE S_order_date > TO_DATE('31-JAN-1996','DD-MON-YYYY');
