@@ -1,0 +1,6 @@
+SELECT MV_NO
+FROM Movie
+WHERE MV_NO NOT IN (
+    SELECT MV_NO
+    FROM Invoice
+);
