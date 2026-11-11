@@ -1,0 +1,3 @@
+SELECT C.FNAME, C.LNAME, I.MV_NO
+FROM Customer C, Invoice I
+WHERE C.CUST_ID = I.CUST_ID;
