@@ -1,0 +1,4 @@
+SELECT S.ROLL, S.SPORTS_FEE, C.CUL_FEES
+FROM Sports_Stud S
+JOIN Cultural_Stud C
+ON S.ROLL = C.ROLL;
