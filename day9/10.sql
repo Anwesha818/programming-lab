@@ -1,0 +1,5 @@
+SELECT DISTINCT M.MV_NO, M.TITLE
+FROM Movie M, Invoice I, Customer C
+WHERE M.MV_NO = I.MV_NO
+AND I.CUST_ID = C.CUST_ID
+AND C.FNAME IN ('Ivan','Vandana','Ravi');
