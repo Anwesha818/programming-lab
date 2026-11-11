@@ -1,0 +1,3 @@
+SELECT NAME FROM Sports_Stud
+UNION
+SELECT NAME FROM Cultural_Stud;
